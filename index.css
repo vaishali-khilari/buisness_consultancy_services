@@ -16,6 +16,11 @@ body{
   display:inline-flex;
   background-color :white;
   
+@media only screen and (max-width: 600px) {
+  .box {
+    width:80%;
+  }
+}
 }
 .content{
   color:black;
@@ -63,6 +68,13 @@ body{
     margin-left: 95px;
 }
 
+@media only screen and (max-width: 400px) {
+  .col-container
+  {
+    width: 100%;
+  }
+}
+
 .col1{
     display: table-cell; 
     background-color:rgb(170, 142, 105);
@@ -93,6 +105,12 @@ body{
   float: left;
   width: 20%;
   padding: 5px;
+}
+@media only screen and (max-width: 400px) {
+  .column
+  {
+    width: 100%;
+  }
 }
 
 .row::after {
@@ -161,6 +179,7 @@ body{
   text-decoration: none;
   font-size: 18px;
 }
+
 
 @media only screen and (max-width: 600px) {
   .columns {
@@ -249,13 +268,13 @@ body{
 }
 input[type=text], select, textarea {
   width: 100%; 
-  padding: 12px;
+  padding: 12px; 
   border: 1px solid #ccc; 
   border-radius: 4px; 
   box-sizing: border-box; 
   margin-top: 6px; 
-  margin-bottom: 16px;
-  resize: vertical 
+  margin-bottom: 16px; 
+}
 
 input[type=submit] {
   background-color: #9fa7a4;
