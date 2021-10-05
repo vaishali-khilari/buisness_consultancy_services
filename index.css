@@ -115,7 +115,6 @@ body{
   margin-left: 95px;
   margin-top :-40px;
 }
-/* Create three columns of equal width */
 .columns {
   float: left;
   width: 24%;
@@ -123,7 +122,6 @@ body{
   margin-left: 95px;
 }
 
-/* Style the list */
 .price {
   list-style-type: none;
   border: 1px solid #eee;
@@ -133,32 +131,27 @@ body{
   transition: 0.3s;
 }
 
-/* Add shadows on hover */
 .price:hover {
   box-shadow: 0 8px 12px 0 rgba(0,0,0,0.2)
 }
 
-/* Pricing header */
 .price .header {
   background-color: rgb(207, 198, 198);
   color: white;
   font-size: 25px;
 }
 
-/* List items */
 .price li {
   border-bottom: 1px solid #eee;
   padding: 20px;
   text-align: center;
 }
 
-/* Grey list item */
 .price .grey {
   background-color: #eee;
   font-size: 20px;
 }
 
-/* The "Sign Up" button */
 .button {
   background-color: #7a807d;
   border: none;
@@ -169,8 +162,6 @@ body{
   font-size: 18px;
 }
 
-/* Change the width of the three columns to 100%
-(to stack horizontally on small screens) */
 @media only screen and (max-width: 600px) {
   .columns {
     width: 100%;
@@ -256,19 +247,16 @@ body{
   margin:auto;
 
 }
-/* Style inputs with type="text", select elements and textareas */
 input[type=text], select, textarea {
-  width: 100%; /* Full width */
-  padding: 12px; /* Some padding */ 
-  border: 1px solid #ccc; /* Gray border */
-  border-radius: 4px; /* Rounded borders */
-  box-sizing: border-box; /* Make sure that padding and width stays in place */
-  margin-top: 6px; /* Add a top margin */
-  margin-bottom: 16px; /* Bottom margin */
-  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
-}
+  width: 100%; 
+  padding: 12px;
+  border: 1px solid #ccc; 
+  border-radius: 4px; 
+  box-sizing: border-box; 
+  margin-top: 6px; 
+  margin-bottom: 16px;
+  resize: vertical 
 
-/* Style the submit button with a specific background color etc */
 input[type=submit] {
   background-color: #9fa7a4;
   color: white;
@@ -278,12 +266,10 @@ input[type=submit] {
   cursor: pointer;
 }
 
-/* When moving the mouse over the submit button, add a darker green color */
 input[type=submit]:hover {
   background-color: #5c615c;
 }
 
-/* Add a background color and some padding around the form */
 .container2 {
   border-radius: 5px;
   background-color: #f2f2f2;
